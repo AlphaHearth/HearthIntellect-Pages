@@ -113,7 +113,7 @@ Front-end pages for [HearthIntellect](https://github.com/Mr-Dai/HearthIntellect)
 
 在卡牌对象中的 `image` 域会给出卡牌图片的链接，如上面出现的奥拉基尔的图片链接为 `NEW1_010`。HearthHead 的 CDN 为卡牌提供了较小的缩略图、普通卡牌的静态图以及金色卡牌的动态图。缩略图可以用于在卡牌画廊中展示，供用户浏览，而剩余的两张大图则放在卡牌专属的信息页中，参考 HearthHead。链接格式如下：
 
-- 缩略图：`//wow.zamimg.com/images/hearthstone/cards/enus/medium/${image}.png`
+- 缩略图：`http://wow.zamimg.com/images/hearthstone/cards/enus/medium/${image}.png`
 - 普通静态图：`http://wow.zamimg.com/images/hearthstone/cards/enus/original/${image}.png`
 - 金色动态图：`http://wow.zamimg.com/images/hearthstone/cards/enus/animated/${image}_premium.gif`
 
